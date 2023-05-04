@@ -1,7 +1,7 @@
 -- SQL-команды для создания таблиц
 CREATE TABLE employees
 (
-    employer_id int2 PRIMARY KEY,
+    employer_id smallserial PRIMARY KEY,
     first_name varchar(50) NOT NULL,
 	last_name varchar(50) NOT NULL,
 	title varchar(100) NOT NULL,
